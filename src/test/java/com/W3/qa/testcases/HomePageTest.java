@@ -67,14 +67,14 @@ public class HomePageTest extends TestBase {
 	}
 	
 	
-	@Test(priority=3)
+	/*@Test(priority=3)
 	public void logoutbuttontest()
 	{
 		Assert.assertTrue(homepage.verifyLogOutButton());
 		
 		
 	}
-	
+	*/
 	@Test(priority = 4)
 	public void clickonSettingPageTest()
 	{
