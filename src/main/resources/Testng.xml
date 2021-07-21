@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="W3 School automation"  > 
+<!-- suite name="Suite Name" --> 
+
+
+             <test name="W3 school test" allow-return-values="true">
+                     <classes>
+                       <!-- packagename.Testcase class name  -->
+                         <class name ="com.W3.qa.testcases.LoginPageTest" />
+                         <class name ="com.W3.qa.testcases.HomePageTest" />
+                         <class name ="com.W3.qa.testcases.SettingPageTest" />
+                     </classes>
+             </test>
+</suite>
